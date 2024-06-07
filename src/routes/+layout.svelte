@@ -9,9 +9,9 @@
 </script>
 
 
-<div class="mb-[h-32]">
-<Nav />
-</div>
-<slot />
 
+<Nav />
+<div class="mt-32">
+<slot />
+</div>
 <Footer />

@@ -17,14 +17,12 @@
         <option>setting</option>
         <option>Invoioce</option>
     </select>
-	</div>
-	<div class="  flex gap-32 bg-black">
-<ul class="hidden">
-		<li><a href="#" class="text-white">Home</a></li>
-		<li><a href="./routes/foto-album/fotos.svelte" class="text-white">Inspiratie</a></li>
+</div>
+<div class="hidden sm:flex gap-32 bg-black">
+		<li><a href="./routes/+page.svelte/" class="text-white" aria-current="page">Home</a></li>
+		<li><a href="./routes/foto-album/+page.svelte/" class="text-white">Inspiratie</a></li>
 		<li><a href="#" class="text-white">Nieuws Brief</a></li>
 		<li><a href="#" class="text-white">Tuinaanleg</a></li>
 		<li><a href="#" class="text-white"> 06 5823512</a></li>
-		</ul>
 		</div>
 </nav>
