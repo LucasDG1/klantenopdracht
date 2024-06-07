@@ -9,16 +9,22 @@
 	<div class="col-start-2 w-screen bg-black">
 		<div>2</div>
 		<hr class="h-1 my-8 m-16 bg-[#525F4F] border-0" />
-		<div class="flex gap-32 bg-black">
-			<div><a href="" class="text-white">Home</a></div>
-			<div><a href="" class="text-white">Reviews</a></div>
-			<div><a href="" class="text-white">Inspiratie</a></div>
-			<div><a href="" class="text-white">Nieuws Brief</a></div>
-			<div><a href="" class="text-white">Tuinaanleg</a></div>
-			<div class="flex">
-				<i class="fa fa-mobile text-white" aria-hidden="true"></i>
-				<a href="" class="text-white"> 06 5823512</a>
-			</div>
-		</div>
+<div class="sm:hidden">
+    <label for="tabs" class="sr-only">Select your country</label>
+    <select id="tabs" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+        <option>Profile</option>
+        <option>Dashboard</option>
+        <option>setting</option>
+        <option>Invoioce</option>
+    </select>
 	</div>
+	<div class="  flex gap-32 bg-black">
+<ul class="hidden">
+		<li><a href="#" class="text-white">Home</a></li>
+		<li><a href="./routes/foto-album/fotos.svelte" class="text-white">Inspiratie</a></li>
+		<li><a href="#" class="text-white">Nieuws Brief</a></li>
+		<li><a href="#" class="text-white">Tuinaanleg</a></li>
+		<li><a href="#" class="text-white"> 06 5823512</a></li>
+		</ul>
+		</div>
 </nav>
