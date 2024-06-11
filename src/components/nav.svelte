@@ -1,8 +1,14 @@
+<script>
+	import logo from '../image/logo-removebg-preview.jpg'
+</script>
+
+
+
 <nav class=" grid fixed top-0 z-50">
 	<div class="bg-black w-32">
 		<img
-			class="w-full h-32"
-			src="https://cdn.discordapp.com/attachments/1247088455469764670/1248542844965355530/logo-removebg-preview.jpg?ex=66640ba3&is=6662ba23&hm=66f8c300901dc2fb9305cf321190bc65125263e915d48540a4429381bdb4b2c1&"
+			class="w-screen h-32"
+			src={logo}
 			alt="image description"
 		/>
 	</div>
@@ -22,7 +28,7 @@
 				<option>06 5823512</option>
 			</select>
 		</div>
-		<div class="hidden sm:flex gap-32 bg-black">
+		<div class="hidden w-screen sm:flex gap-32 bg-black">
 			<li>
 				<a
 					href="./routes/+page.svelte/"
