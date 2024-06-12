@@ -6,7 +6,7 @@
 	/>
 	<div class="absolute inset-0 bg-gray-700 opacity-60 rounded-md"></div>
 	<div class="absolute inset-0 flex items-center justify-center">
-		<h2 class="text-white text-3xl font-bold">Hendrik Hogendijk Hoveniers</h2>
+		<h2 class="text-white text-3xl font-bold font-serif">Hendrik Hogendijk Hoveniers</h2>
 	</div>
 </div>
 <div class="container mx-auto p-4 mt-16">
