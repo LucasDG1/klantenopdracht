@@ -10,7 +10,7 @@
 
 
 <Nav />
-<div class="mt-32">
+<div class="mt-[80px]">
 <slot />
 </div>
 <Footer />

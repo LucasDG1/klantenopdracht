@@ -20,7 +20,7 @@
 		<nav class="container px-6 py-2 mx-auto md:flex md:justify-between md:items-center">
 			<div class="flex items-center justify-between">
 				<img
-					class={`logo w-32 h-32 col-start-1 ${y > 80 ? 'w-[64px] h-[64px] mt-[20px]' : 'w-32 h-32'}`}
+					class={`logo w-32 h-32 col-start-1 ${y > 80 ? 'w-[54px] h-[54px] mt-[5px]' : 'w-[80px] h-[80px]'}`}
 					src={logo}
 					alt="image2"
 				/>

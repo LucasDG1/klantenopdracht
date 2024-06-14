@@ -4,6 +4,7 @@
 	import hovenier1 from '../image/Hovenier-Almere.jpg';
 	import hovenier2 from '../image/hovenier1.jpg';
 	import hovenier3 from '../image/hovenier2.jpg';
+	import pfp from '../image/pfp.jpg';
 
 	let currentIndex = writable(0);
 	let images = [hovenier1, hovenier2, hovenier3];
@@ -17,7 +18,7 @@
 	}
 
 	onMount(() => {
-		const interval = setInterval(nextSlide, 3000);
+		const interval = setInterval(nextSlide, 4000);
 		return () => clearInterval(interval);
 	});
 </script>
@@ -58,21 +59,25 @@
 		<div
 			class="flex flex-col items-start col-span-1 md:col-start-2 md:col-span-4 lg:col-start-2 lg:col-span-2 xl:col-start-2 xl:col-span-2 w-full md:w-64"
 		>
-			<h2 class="text-3xl font-bold">Hallo</h2>
-			<div class="text-2xl font-bold">Hallo2</div>
+			<h2 class="text-3xl font-bold">Welkom bij website van</h2>
+			<div class="text-2xl text-green-600 font-bold">Hendrik Hogendijk</div>
 			<hr class="my-6 w-full md:w-64 rounded bg-[#525F4F] border-1" />
-			<p class="text-sm">blablabalbalbalabl</p>
+			<p class="text-sm">De tuin is een belangrijke plek van de woning, waar je het liefst zoveel mogelijk tijd in doorbrengt. Bij Hendrik Hogendijk Hoveniers vinden wij het daarom belangrijk dat iedereen zich thuis voelt in zijn of haar tuin. Ik maak de tuin onderdeel van jouw ‘thuis’, door hem volledig op jouw wensen af te stemmen.
+
+				Met behulp van mooie, natuurlijke en duurzame producten en materialen creëer ik een tuin, die garant staat voor een jarenlang plezierig buitenleven. Van een knusse veranda en een mooie vijver, tot een gezellig terras en een kleurrijke bloemenborder: ik stop al mijn energie erin.</p>
 		</div>
+		
 
 		<hr class="h-1 my-6 w-full md:w-full rounded col-span-1 md:col-span-6 bg-[#525F4F] border-0" />
 
 		<div
 			class="flex flex-col items-start col-span-1 md:col-start-2 md:col-span-4 lg:col-start-5 lg:col-span-2 xl:col-start-5 xl:col-span-2 w-full md:w-64"
 		>
-			<h2 class="text-3xl font-bold">Hallo</h2>
-			<div class="text-2xl font-bold">Hallo2</div>
+			<h2 class="text-3xl font-bold">Quote</h2>
+			<div class="text-2xl text-green-600 font-bold">Een hoveniers quote</div>
 			<hr class="my-6 w-full md:w-64 rounded bg-[#525F4F] border-1" />
-			<p class="text-sm">blablabalbalbalabl</p>
+			<p class="text-sm">
+				Inspiratie is handig als je naar een hoveniersbedrijf gaat omdat het helpt om je wensen duidelijk te maken. Met ideeën over wat je mooi vindt, kan de hovenier beter inspelen op jouw visie en creatief meedenken. Zo bespaar je tijd en krijg je sneller de tuin van je dromen.</p>
 		</div>
 
 		<hr class="h-1 my-6 w-full md:w-full rounded col-span-1 md:col-span-6 bg-[#525F4F] border-0" />
@@ -80,10 +85,10 @@
 		<div
 			class="flex flex-col items-start col-span-1 md:col-start-2 md:col-span-4 lg:col-start-2 lg:col-span-2 xl:col-start-2 xl:col-span-2 w-full md:w-64"
 		>
-			<h2 class="text-3xl font-bold">Hallo</h2>
-			<div class="text-2xl font-bold">Hallo2</div>
+			<h2 class="text-3xl font-bold">Contact Mij</h2>
+			<div class="text-2xl text-green-600 underline font-bold"><a href="">Klik hier om mij te contacten</a></div>
 			<hr class="my-6 w-full md:w-64 rounded bg-[#525F4F] border-1" />
-			<p class="text-sm">blablabalbalbalabl</p>
+			<p class="text-sm">Een hovenier inschakelen is een goed idee omdat zij de expertise hebben om je tuin professioneel aan te leggen en te onderhouden. Ze kunnen je helpen bij het ontwerpen van een mooie en functionele buitenruimte, rekening houdend met jouw wensen en de eigenschappen van je tuin. Daarnaast bespaart een hovenier je tijd en moeite, zodat je optimaal kunt genieten van een perfect verzorgde tuin zonder zelf al het werk te hoeven doen.</p>
 		</div>
 
 		<hr class="h-1 my-6 w-full md:w-full rounded col-span-1 md:col-span-6 bg-[#525F4F] border-0" />
@@ -91,10 +96,10 @@
 		<div
 			class="flex flex-col items-start col-span-1 md:col-start-2 md:col-span-4 lg:col-start-5 lg:col-span-2 xl:col-start-5 xl:col-span-2 w-full md:w-64"
 		>
-			<h2 class="text-3xl font-bold">Hallo</h2>
-			<div class="text-2xl font-bold">Hallo2</div>
+			<h2 class="text-3xl font-bold">Inspiratie</h2>
+			<div class="text-2xl text-green-600 underline font-bold"><a href="">vind hier inspiratie</a></div>
 			<hr class="my-6 w-full md:w-64 rounded bg-[#525F4F] border-1" />
-			<p class="text-sm">blablabalbalbalabl</p>
+			<p class="text-sm">Inspiratie is handig als je naar een hoveniersbedrijf gaat omdat het helpt om je wensen duidelijk te maken. Met ideeën over wat je mooi vindt, kan de hovenier beter inspelen op jouw visie en creatief meedenken. Zo bespaar je tijd en krijg je sneller de tuin van je dromen.</p>
 		</div>
 
 		<hr class="h-1 my-6 w-full md:w-full rounded col-span-1 md:col-span-6 bg-[#525F4F] border-0" />
