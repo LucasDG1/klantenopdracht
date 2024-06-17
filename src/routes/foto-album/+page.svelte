@@ -8,15 +8,29 @@
  import img7 from "../../image/Site foto mv2 (1).jpeg";
  import img8 from "../../image/Site foto mv2.jpeg";
  import img9 from "../../image/Site foto's mv2.webp";
-</script>
-<div class="flex flex-col items-center">
-    <div class="border-solid border-green-800 border-4 rounded mt-7"><img alt="img" src={img1}></div>
-    <div class="border-solid border-green-800 border-4 rounded mt-7"><img alt="img" src={img2}></div>
-    <div class="border-solid border-green-800 border-4 rounded mt-7"><img alt="img" src={img3}></div>
-    <div class="border-solid border-green-800 border-4 rounded mt-7"><img alt="img" src={img4}></div>
-    <div class="border-solid border-green-800 border-4 rounded mt-7"><img alt="img" src={img5}></div>
-    <div class="border-solid border-green-800 border-4 rounded mt-7"><img alt="img" src={img6}></div>
-    <div class="border-solid border-green-800 border-4 rounded mt-7"><img alt="img" src={img7}></div>
-    <div class="border-solid border-green-800 border-4 rounded mt-7"><img alt="img" src={img8}></div>
-    <div class="border-solid border-green-800 border-4 rounded mt-7 mb-7"><img alt="img" src={img9}></div>
-</div>
+</script> 
+
+
+
+
+<div class="bg-green-100">
+    <div class="flex items-center justify-center gap-10 max-lg:flex-col">
+        <div class="border-solid border-green-900 border-4 rounded mt-36 "><img alt="img" src={img1}></div>
+        <div class="border-solid border-green-900 border-4 rounded mt-24"><img alt="img" src={img2}></div>
+    </div>
+    <div class="flex items-center justify-center gap-48 max-xl:gap-10 max-lg:flex-col">
+        <div class="border-solid border-green-900 border-4 rounded mt-10 "><img alt="img" src={img5}></div>
+        <div class="border-solid border-green-900 border-4 rounded mt-10 "><img alt="img" src={img6}></div>
+    </div>
+    <div class="flex items-center justify-center gap-40 max-xl:gap-10 max-lg:flex-col">
+        <div class="border-solid border-green-900 border-4 rounded mt-10 ga"><img alt="img" src={img3}></div>
+        <div class="border-solid border-green-900 border-4 rounded mt-10 h-7/12 w-7/12 max-sm:w-10/12 max-sm:h10/12"><img alt="img" src={img4}></div>
+    </div>
+    <div class="flex items-center justify-center gap-48 max-xl:gap-10 max-lg:flex-col">
+        <div class="border-solid border-green-900 border-4 rounded mt-10"><img alt="img" src={img7}></div>
+        <div class="border-solid border-green-900 border-4 rounded mt-10 mb-36"><img alt="img" src={img9}></div>
+    </div>
+</div> 
+
+
+
