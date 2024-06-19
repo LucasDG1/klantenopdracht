@@ -53,13 +53,16 @@
 					? 'flex'
 					: 'hidden'}"
 			>
-				<a class="text-gray-100 text-xl hover:bg-[#A9A9A9] hover:rounded" href="/home">Home</a>
-				<a class="text-gray-100 text-xl hover:bg-[#A9A9A9] hover:rounded" href="/blog">Inspiratie</a
+				<a class="text-gray-100 text-xl hover:bg-[#A9A9A9] hover:rounded" href="/">Home</a>
+				<a class="text-gray-100 text-xl hover:bg-[#A9A9A9] hover:rounded" href="/foto-album">Inspiratie</a
 				>
 				<a class="text-gray-100 text-xl hover:bg-[#A9A9A9] hover:rounded" href="/contact"
 					>Contact Mij</a
 				>
-				<a class="text-gray-100 text-xl hover:bg-[#A9A9A9] hover:rounded" href="/about"
+				<a class="text-gray-100 text-xl hover:bg-[#A9A9A9] hover:rounded" href="/diensten"
+					>Diensten</a
+				>
+				<a class="text-gray-100 text-xl hover:bg-[#A9A9A9] hover:rounded" href=""
 					>06 5823123</a
 				>
 				<div class="space-y-2"></div>
