@@ -7,7 +7,7 @@
 
 <div class="container mx-auto p-4 mt-16">
 	<!-- tuinontwerp -->
-	<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start mt-8">
+	<div class="grid grid-cols-1  md:grid-cols-5 gap-4 place-items-start mt-8">
 		<div
 			class="flex flex-col items-start col-span-1 md:col-start-2 md:col-span-1 lg:col-start-2 lg:col-span-1 xl:col-start-2 xl:col-span-1 w-full md:w-64"
 		>

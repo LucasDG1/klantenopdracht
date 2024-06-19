@@ -113,7 +113,7 @@
 		>
 			<h2 class="text-3xl font-bold">Contact Mij</h2>
 			<div class="text-2xl text-green-600 underline font-bold">
-				<a href="">Klik hier om mij te contacten</a>
+				<a href="/contact">Klik hier om mij te contacten</a>
 			</div>
 			<hr class="my-6 w-full md:w-64 rounded bg-[#525F4F] border-1" />
 			<p class="text-sm">
@@ -144,7 +144,7 @@
 		>
 			<h2 class="text-3xl font-bold">Inspiratie</h2>
 			<div class="text-2xl text-green-600 underline font-bold">
-				<a href="">vind hier inspiratie</a>
+				<a href="/foto-album">vind hier inspiratie</a>
 			</div>
 			<hr class="my-6 w-full md:w-64 rounded bg-[#525F4F] border-1" />
 			<p class="text-sm">
