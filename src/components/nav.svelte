@@ -9,6 +9,10 @@
 	function toggleNavbar() {
 		showMenu = !showMenu;
 	}
+
+	function closeNavbar() {
+		showMenu = false;
+	}
 </script>
 
 <svelte:window bind:scrollY={y} />
@@ -53,17 +57,30 @@
 					? 'flex'
 					: 'hidden'}"
 			>
-				<a class="text-gray-100 text-xl hover:bg-[#A9A9A9] hover:rounded" href="/">Home</a>
-				<a class="text-gray-100 text-xl hover:bg-[#A9A9A9] hover:rounded" href="/foto-album">Inspiratie</a
+				<a
+					on:click={closeNavbar}
+					class="text-gray-100 text-xl hover:bg-[#A9A9A9] hover:rounded"
+					href="/">Home</a
 				>
-				<a class="text-gray-100 text-xl hover:bg-[#A9A9A9] hover:rounded" href="/contact"
-					>Contact Mij</a
+				<a
+					on:click={closeNavbar}
+					class="text-gray-100 text-xl hover:bg-[#A9A9A9] hover:rounded"
+					href="/foto-album">Inspiratie</a
 				>
-				<a class="text-gray-100 text-xl hover:bg-[#A9A9A9] hover:rounded" href="/diensten"
-					>Diensten</a
+				<a
+					on:click={closeNavbar}
+					class="text-gray-100 text-xl hover:bg-[#A9A9A9] hover:rounded"
+					href="/contact">Contact Mij</a
 				>
-				<a class="text-gray-100 text-xl hover:bg-[#A9A9A9] hover:rounded" href=""
-					>06 5823123</a
+				<a
+					on:click={closeNavbar}
+					class="text-gray-100 text-xl hover:bg-[#A9A9A9] hover:rounded"
+					href="/diensten">Diensten</a
+				>
+				<a
+					on:click={closeNavbar}
+					class="text-gray-100 text-xl hover:bg-[#A9A9A9] hover:rounded"
+					href="">06 5823123</a
 				>
 				<div class="space-y-2"></div>
 			</div>
