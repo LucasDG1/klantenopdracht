@@ -1,0 +1,55 @@
+[
+    {
+        "text_id": "1",
+        "text": "Welkom bij de website van Hendrik Hogendijk, hovenier in de regio Utrecht, Zeist en de Bilt. "
+    },
+    {
+        "text_id": "2",
+        "text":"De tuin is een belangrijke plek van de woning, waar je het liefst zoveel mogelijk tijd in doorbrengt. Bij Hendrik Hogendijk Hoveniers vinden wij het daarom belangrijk dat iedereen zich thuis voelt in zijn of haar tuin. Ik maak de tuin onderdeel van jouw thuis, door hem volledig op jouw wensen af te stemmen. Met behulp van mooie, natuurlijke en duurzame producten en materialen creëer ik een tuin, die garant staat voor een jarenlang plezierig buitenleven. Van een knusse veranda en een mooie vijver, tot een gezellig terras en een kleurrijke bloemenborder: ik stop al mijn energie erin."
+    },
+    {
+        "title": "Ontwerp",
+        "text_id": "3",
+        "text": "Wat jouw wensen ook zijn, ik maak een goed doordacht ontwerp voor de tuin van je dromen. Met mijn ontwerp krijg je een duidelijk beeld van jouw toekomstige tuin."
+    },
+    {
+        "title": "Aanleg",
+        "text_id": "4",
+        "text": "Van tuinontwerp naar jouw gewenste tuin. Wij verzorgen de aanleg met een goed voorbereid plan. Met een kritisch oog en precisie leg ik de tuin voor je aan."
+    },
+    {
+        "title": "Onderhoud",
+        "text_id": "5",
+        "text": "Om het hele jaar door optimaal te genieten van jouw tuin is het belangrijk dat deze goed onderhouden wordt. Ik neem je graag deze zorg uit handen." 
+    },
+
+
+
+    
+
+    {
+        "title": "Tuinontwerp",
+        "text_id": "6",
+        "text": "Een mooie tuin valt of staat bij een goed tuinontwerp. Als het op ontwerpen aankomt, maakt Hendrik Hogendijk het verschil.",
+        "img": "https://gluwebdev.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F34e6ca71-72e1-46cb-bdf1-62d3f23eadbb%2Ficon-tuinontwerp.png?table=block&id=87da8922-6cc2-4191-85da-656b69615d6e&spaceId=0216a67a-859e-4730-996f-5d51b31fa395&width=280&userId=&cache=v2"
+    },
+    {
+        "title": "Tuinaanleg",
+        "text_id": "7",
+        "text": "Het aanleggen van een tuin doen ik altijd vanuit dezelfde drive: ik wil er iets moois van maken. ",
+        "img": "https://gluwebdev.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb38719f8-49b3-474b-94a6-563f292c592d%2Ficon-tuinaanleg.png?table=block&id=edbd4501-5819-4c01-8057-292bc7329981&spaceId=0216a67a-859e-4730-996f-5d51b31fa395&width=260&userId=&cache=v2"
+    },
+    {
+        "title": "Tuinonderhoud",
+        "text_id": "8",
+        "text": "Een mooie tuin verdient het juiste onderhoud. Immers, goed onderhoud is een essentiële voorwaarde voor een tuin die het hele jaar door mooi blijft.",
+        "img": "https://gluwebdev.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb903d65d-696a-4856-bb44-79dad3c42182%2Ficon-tuinonderhoud.png?table=block&id=206795de-69c4-458c-b976-ac3e01c39ad6&spaceId=0216a67a-859e-4730-996f-5d51b31fa395&width=330&userId=&cache=v2"
+    },
+    {
+        "title": "Zwemvijvers",
+        "text_id": "9",
+        "text": "Zwemvijvers, is één van mjn grootste passies. En gelukkig, ze winnen aan steeds meer populariteit, waardoor ik er veel ervaring mee heb opgebouwd.",
+        "img": "https://gluwebdev.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F7a019d92-7e72-4f6b-a2f1-663481f5ea93%2Ficon-zwemvijvers.png?table=block&id=a9132b1d-ce0f-4a6e-b108-83d05ada84a9&spaceId=0216a67a-859e-4730-996f-5d51b31fa395&width=290&userId=&cache=v2"
+    }
+    
+]
