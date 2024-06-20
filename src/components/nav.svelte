@@ -21,10 +21,10 @@
 	<div
 		class={`navbar fixed top-0 w-full z-50 overflow-hidden bg-black transition-[padding] duration-400 ${y >= 80 ? 'p-[0px_0px]' : 'p-[10px_0px]'}`}
 	>
-		<nav class="container px-6 py-2 mx-auto md:flex md:justify-between md:items-center">
+		<nav class="container px-6 py-2  mx-auto md:flex md:justify-between md:items-center">
 			<div class="flex items-center justify-between">
 				<img
-					class={`logo w-32 h-32 col-start-1 ${y > 80 ? 'w-[54px] h-[54px] mt-[5px]' : 'w-[80px] h-[80px]'}`}
+					class={`logo w-32 h-32 transition-all duration-200 col-start-1 ${y > 80 ? 'w-[44px] h-[44px] mt-[5px]' : 'w-[60px] h-[60px]'}`}
 					src={logo}
 					alt="image2"
 				/>
@@ -40,7 +40,7 @@
 							viewBox="0 0 24 24"
 							stroke-width="2"
 							stroke="currentColor"
-							class="w-8 h-8"
+							class="w-[28px] h-[28]"
 						>
 							<path
 								stroke-linecap="round"
@@ -53,33 +53,33 @@
 			</div>
 
 			<div
-				class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 {showMenu
+				class="flex-col mt-8 gap-2 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 {showMenu
 					? 'flex'
 					: 'hidden'}"
 			>
 				<a
 					on:click={closeNavbar}
-					class="text-gray-100 text-xl hover:bg-[#A9A9A9] hover:rounded"
+					class="text-gray-100 text-base hover:bg-[#A9A9A9] hover:rounded hover:p-1"
 					href="/">Home</a
 				>
 				<a
 					on:click={closeNavbar}
-					class="text-gray-100 text-xl hover:bg-[#A9A9A9] hover:rounded"
+					class="text-gray-100 text-base hover:bg-[#A9A9A9] hover:rounded hover:p-1"
 					href="/foto-album">Inspiratie</a
 				>
 				<a
 					on:click={closeNavbar}
-					class="text-gray-100 text-xl hover:bg-[#A9A9A9] hover:rounded"
+					class="text-gray-100 text-base hover:bg-[#A9A9A9] hover:rounded hover:p-1"
 					href="/contact">Contact Mij</a
 				>
 				<a
 					on:click={closeNavbar}
-					class="text-gray-100 text-xl hover:bg-[#A9A9A9] hover:rounded"
+					class="text-gray-100 text-base hover:bg-[#A9A9A9] hover:rounded hover:p-1"
 					href="/diensten">Diensten</a
 				>
 				<a
 					on:click={closeNavbar}
-					class="text-gray-100 text-xl hover:bg-[#A9A9A9] hover:rounded"
+					class="text-gray-100 text-base hover:bg-[#A9A9A9] hover:rounded hover:p-1"
 					href="">06 5823123</a
 				>
 				<div class="space-y-2"></div>
