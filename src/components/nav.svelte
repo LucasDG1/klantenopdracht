@@ -80,7 +80,7 @@
 				<a
 					on:click={closeNavbar}
 					class="text-gray-100 text-base hover:bg-[#A9A9A9] hover:rounded hover:p-1"
-					href="">06 5823123</a
+					href="">+31 6 12345678</a
 				>
 				<div class="space-y-2"></div>
 			</div>
