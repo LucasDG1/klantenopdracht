@@ -35,7 +35,7 @@
 			<img src={image} alt="Slideshow image" class="inset-0 h-full w-full object-cover" />
 		</div>
 	{/each}
-	<button
+	<!-- <button
 		on:click={prevSlide}
 		class="absolute left-0 top-1/2 transform max-md:hidden -translate-y-1/2 bg-gray-700 bg-opacity-50 text-white p-2 rounded z-10"
 		>Vorige</button
@@ -44,10 +44,11 @@
 		on:click={nextSlide}
 		class="absolute right-0 top-1/2 transform max-md:hidden -translate-y-1/2 bg-gray-700 bg-opacity-50 text-white p-2 rounded z-10"
 		>Volgende</button
-	>
+	> -->
 	<div class="absolute inset-0 bg-gray-700 opacity-60"></div>
-	<div class="absolute inset-0 flex items-center justify-center">
-		<h2 class="text-white text-3xl font-bold font-serif">Hendrik Hogendijk Hoveniers</h2>
+	<div class="absolute inset-0 flex flex-col justify-items-start gap-4 items-center justify-center">
+		<h1 class="text-white text-3xl drop-shadow-lg max-sm:ml-16  font-bold ">Hendrik Hogendijk Hoveniers</h1>
+		<h2 class="text-white text-2xl drop-shadow-lg max-sm:ml-16 max-md:ml-32  font-bold ">"Een mooie tuin brengt vreugde en verbetert de leefomgeving."</h2>
 	</div>
 	<style>
 		.opacity-100 {
@@ -64,7 +65,7 @@
 		<div
 			class="flex flex-col items-start col-span-1 md:col-start-2 md:col-span-1 lg:col-start-2 lg:col-span-1 xl:col-start-2 xl:col-span-1 w-full md:w-64"
 		>
-			<h2 class="text-3xl font-bold">Welkom bij website van</h2>
+			<h2 class="text-3xl font-bold">Welkom bij de website van</h2>
 			<div class="text-2xl text-green-600 font-bold">Hendrik Hogendijk</div>
 			<hr class="my-6 w-full md:w-64 rounded bg-[#525F4F] border-1" />
 			<p class="text-sm">
@@ -83,7 +84,7 @@
 			<img src={pfp} alt="photopfp" />
 		</figure>
 
-		<hr class="h-1 my-6 w-full md:w-full rounded col-span-1 md:col-span-6 bg-[#525F4F] border-0" />
+		<hr class=" my-6 w-full md:w-full rounded col-span-1 md:col-span-6 bg-[#525F4F] border-1" />
 	</div>
 	<!-- qoute -->
 	<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start mt-8">
@@ -105,7 +106,7 @@
 				dromen.
 			</p>
 		</div>
-		<hr class="h-1 my-6 w-full md:w-full rounded col-span-1 md:col-span-6 bg-[#525F4F] border-0" />
+		<hr class=" my-6 w-full md:w-full rounded col-span-1 md:col-span-6 bg-[#525F4F] border-1" />
 	</div>
 	<!-- contact mij -->
 	<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start mt-8">
@@ -130,7 +131,7 @@
 	>
 		<img src={contactmij} alt="contactmij" />
 	   </figure>
-	<hr class="h-1 my-6 w-full md:w-full rounded col-span-1 md:col-span-6 bg-[#525F4F] border-0" />
+	<hr class=" my-6 w-full md:w-full rounded col-span-1 md:col-span-6 bg-[#525F4F] border-1" />
 	</div>
 
 	<!-- inspiratie -->

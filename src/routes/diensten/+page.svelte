@@ -24,7 +24,7 @@
 			<img src={onderhoud} alt="photopfp" />
 		</figure>
 
-		<hr class="h-1 my-6 w-full md:w-full rounded col-span-1 md:col-span-6 bg-[#525F4F] border-0" />
+		<hr class=" my-6 w-full md:w-full rounded col-span-1 md:col-span-6 bg-[#525F4F] border-1" />
 	</div>
 	<!-- tuinaanleg -->
 	<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start mt-8">
@@ -43,7 +43,7 @@
 				maken.
 			</p>
 		</div>
-		<hr class="h-1 my-6 w-full md:w-full rounded col-span-1 md:col-span-6 bg-[#525F4F] border-0" />
+		<hr class=" my-6 w-full md:w-full rounded col-span-1 md:col-span-6 bg-[#525F4F] border-1" />
 	</div>
 	<!-- tuinonderhoud -->
 	<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start mt-8">
@@ -62,7 +62,7 @@
 		>
 			<img src={ontwerp} alt="contactmij" />
 		</figure>
-		<hr class="h-1 my-6 w-full md:w-full rounded col-span-1 md:col-span-6 bg-[#525F4F] border-0" />
+		<hr class=" my-6 w-full md:w-full rounded col-span-1 md:col-span-6 bg-[#525F4F] border-1" />
 	</div>
 
 	<!-- zwemvijvers -->
