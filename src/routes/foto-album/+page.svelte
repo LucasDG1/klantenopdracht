@@ -20,7 +20,7 @@
 	</div>
 	<div class="w-full md:w-[400px] flex flex-col drop-shadow-2xl md:col-start-4 lg:col-start-5 md:col-span-1 mt-24"><img src={img1} alt="foto" /></div>
 
-    <hr class="h-1 my-6 w-full md:w-full rounded col-span-1 md:col-span-8 bg-[#525F4F] border-0" />
+    <hr class=" my-6 w-full md:w-full rounded col-span-1 md:col-span-8 bg-[#525F4F] border-1" />
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-8 gap-4 place-items-start mt-8 w-full">
@@ -32,7 +32,7 @@
 	</div>
 	<div class="w-full md:w-[400px] flex flex-col drop-shadow-2xl md:col-start-4 lg:col-start-5 md:col-span-1 mt-24"><img src={img6} alt="foto" /></div>
 
-    <hr class="h-1 my-6 w-full md:w-full rounded col-span-1 md:col-span-8 bg-[#525F4F] border-0" />
+    <hr class=" my-6 w-full md:w-full rounded col-span-1 md:col-span-8 bg-[#525F4F] border-1" />
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-8 gap-4 place-items-start mt-8 w-full">
@@ -45,7 +45,7 @@
 	</div>
 	<div class="w-full md:w-[400px] flex flex-col drop-shadow-2xl md:col-start-4 lg:col-start-5 md:col-span-1 mt-24"><img src={img2} alt="foto" /></div>
 
-    <hr class="h-1 my-6 w-full md:w-full rounded col-span-1 md:col-span-8 bg-[#525F4F] border-0" />
+    <hr class=" my-6 w-full md:w-full rounded col-span-1 md:col-span-8 bg-[#525F4F] border-1" />
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-8 gap-4 place-items-start mt-8 w-full">
@@ -57,7 +57,7 @@
 	</div>
 	<div class="w-full md:w-[400px] flex flex-col drop-shadow-2xl md:col-start-4 lg:col-start-5 md:col-span-1 mt-2"><img src={img7} alt="foto" /></div>
 
-    <hr class="h-1 my-6 w-full md:w-full rounded col-span-1 md:col-span-8 bg-[#525F4F] border-0" />
+    <hr class=" my-6 w-full md:w-full rounded col-span-1 md:col-span-8 bg-[#525F4F] border-1" />
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-8 gap-4 place-items-start mt-8 w-full">
@@ -70,7 +70,7 @@
 	</div>
 	<div class="w-full md:w-[400px] flex flex-col drop-shadow-2xl md:col-start-4 lg:col-start-5 md:col-span-1 mt-24"><img src={img5} alt="foto" /></div>
 
-    <hr class="h-1 my-6 w-full md:w-full rounded col-span-1 md:col-span-8 bg-[#525F4F] border-0" />
+    <hr class=" my-6 w-full md:w-full rounded col-span-1 md:col-span-8 bg-[#525F4F] border-1" />
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-8 gap-4 place-items-start mt-8 w-full">
@@ -82,6 +82,6 @@
 	</div>
 	<div class="w-full md:w-[400px] flex flex-col drop-shadow-2xl md:col-start-4 lg:col-start-5 md:col-span-1 mt-24"><img src={img9} alt="foto" /></div>
 
-    <hr class="h-1 my-6 w-full md:w-full rounded col-span-1 md:col-span-8 bg-[#525F4F] border-0" />
+    <hr class=" my-6 w-full md:w-full rounded col-span-1 md:col-span-8 bg-[#525F4F] border-1" />
 </div>
 </div> 
