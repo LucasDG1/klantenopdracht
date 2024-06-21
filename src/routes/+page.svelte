@@ -37,12 +37,12 @@
 	<button
 		on:click={prevSlide}
 		class="absolute left-0 top-1/2 transform max-md:hidden -translate-y-1/2 bg-gray-700 bg-opacity-50 text-white p-2 rounded z-10"
-		>Prev</button
+		>Vorige</button
 	>
 	<button
 		on:click={nextSlide}
 		class="absolute right-0 top-1/2 transform max-md:hidden -translate-y-1/2 bg-gray-700 bg-opacity-50 text-white p-2 rounded z-10"
-		>Next</button
+		>Volgende</button
 	>
 	<div class="absolute inset-0 bg-gray-700 opacity-60"></div>
 	<div class="absolute inset-0 flex items-center justify-center">
