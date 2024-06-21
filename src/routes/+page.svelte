@@ -2,15 +2,16 @@
 	import { onMount } from 'svelte';
 	import { writable } from 'svelte/store';
 	import hovenier1 from '../image/Hovenier-Almere.jpg';
-	import hovenier2 from '../image/hovenier1.jpg';
-	import hovenier3 from '../image/hovenier2.jpg';
+	import tuin1 from '../image/thumbnail_tuin1.jpg';
+	import tuin2 from '../image/thumbnail_tuin2.jpg';
+	import tuin3 from '../image/tuin3.jpg';
 	import qoute from '../image/qoute.jpg';
 	import contactmij from '../image/contact.jpg';
 	import inspiratie from '../image/Site foto mv2.jpeg';
 	import pfp from '../image/pfp.jpg';
 
 	let currentIndex = writable(0);
-	let images = [hovenier1, hovenier2, hovenier3];
+	let images = [hovenier1, tuin1, tuin2, tuin3];
 
 	function nextSlide() {
 		currentIndex.update((n) => (n + 1) % images.length);
