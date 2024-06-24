@@ -1,4 +1,4 @@
-<div class="left-0 w-full pt-16 pb-16 bg-[#36454F] text-white p-4">
+<div class="left-0 w-full pt-16 pb-16 bg-[#36454F] text-white p-4 snap-start">
 	<div class="flex flex-col md:grid md:grid-cols-6 gap-4 text-center md:text-left">
 		<div class="">
 			<h3 class="font-bold  mb-2 text-green-500">Handige links</h3>

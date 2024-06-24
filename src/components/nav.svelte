@@ -1,6 +1,6 @@
 <script>
 	let y = 0;
-	$: console.log(y);
+	// $: out = y > -100 || ;
 
 	import logo from '../image/logo-removebg-preview-removebg-preview.png';
 
