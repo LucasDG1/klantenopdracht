@@ -11,7 +11,7 @@
 
 <div class="container mx-auto p-4 mt-16">
 
-<div class="grid grid-cols-1 md:grid-cols-8 gap-4 place-items-start mt-8 w-full">
+<div class="grid grid-cols-1 md:grid-cols-8 gap-4 place-items-start mt-8 w-full snap-start">
 	<div class="flex flex-col items-start mt-48  md:col-start-1 lg:col-start-2 md:col-span-1 w-full md:w-64">
 		<p class="text-xl">
 			“Heel erg bedankt voor de efficiënte service, je was heel snel klaar en ik zal je nummer zeker
@@ -23,7 +23,7 @@
     <hr class=" my-6 w-full md:w-full rounded col-span-1 md:col-span-8 bg-[#525F4F] border-1" />
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-8 gap-4 place-items-start mt-8 w-full">
+<div class="grid grid-cols-1 md:grid-cols-8 gap-4 place-items-start mt-8 w-full snap-start">
 	<div class="flex flex-col items-start mt-48  md:col-start-1 lg:col-start-2 md:col-span-1 w-full md:w-64">
 		<p class="text-xl">
             “Ga alsjeblieft door met de bezoeken aan het huis van mijn vader, want je doet geweldig werk!” -
@@ -35,7 +35,7 @@
     <hr class=" my-6 w-full md:w-full rounded col-span-1 md:col-span-8 bg-[#525F4F] border-1" />
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-8 gap-4 place-items-start mt-8 w-full">
+<div class="grid grid-cols-1 md:grid-cols-8 gap-4 place-items-start mt-8 w-full snap-start">
 	<div class="flex flex-col items-start mt-2  md:col-start-1 lg:col-start-2 md:col-span-1 w-full md:w-64">
 		<p class="text-xl">
             “Zoals u weet ben ik altijd tevreden geweest met de service die u de afgelopen jaren heeft
@@ -48,7 +48,7 @@
     <hr class=" my-6 w-full md:w-full rounded col-span-1 md:col-span-8 bg-[#525F4F] border-1" />
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-8 gap-4 place-items-start mt-8 w-full">
+<div class="grid grid-cols-1 md:grid-cols-8 gap-4 place-items-start mt-8 w-full snap-start">
 	<div class="flex flex-col items-start mt-10  md:col-start-1 lg:col-start-2 md:col-span-1 w-full md:w-64">
 		<p class="text-xl">
             “Bedankt voor de grondige opruimbeurt die u aan mijn tuin heeft uitgevoerd. De tuin is er enorm
@@ -60,7 +60,7 @@
     <hr class=" my-6 w-full md:w-full rounded col-span-1 md:col-span-8 bg-[#525F4F] border-1" />
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-8 gap-4 place-items-start mt-8 w-full">
+<div class="grid grid-cols-1 md:grid-cols-8 gap-4 place-items-start mt-8 w-full snap-start">
 	<div class="flex flex-col items-start mt-48  md:col-start-1 lg:col-start-2 md:col-span-1 w-full md:w-64">
 		<p class="text-xl">
             “Mijn tuin was een mijn jungle voor en achter. Ik ben zo blij met het resultaat; u heeft zo hard
@@ -73,7 +73,7 @@
     <hr class=" my-6 w-full md:w-full rounded col-span-1 md:col-span-8 bg-[#525F4F] border-1" />
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-8 gap-4 place-items-start mt-8 w-full">
+<div class="grid grid-cols-1 md:grid-cols-8 gap-4 place-items-start mt-8 w-full snap-start">
 	<div class="flex flex-col items-start mt-48  md:col-start-1 lg:col-start-2 md:col-span-1 w-full md:w-64">
 		<p class="text-xl">
             “We zijn erg blij met ons nieuwe dak van de schuur en het andere werk dat tot een zeer hoge

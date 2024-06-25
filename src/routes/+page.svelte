@@ -6,7 +6,7 @@
 	import tuin2 from '../image/thumbnail_tuin2.jpg';
 	import tuin3 from '../image/tuin3.jpg';
 	import qoute from '../image/qoute.jpg';
-	import contactmij from '../image/contact.jpg';
+	import contactmij from '../image/contact.png';
 	import inspiratie from '../image/Site foto mv2.jpeg';
 	import pfp from '../image/pfp.jpg';
 
@@ -27,7 +27,6 @@
 	});
 </script>
 
-<div class="snap-y snap-mandatory overflow-scroll w-screen h-screen">
 	<div class="relative w-full h-screen snap-start">
 		{#each images as image, i}
 			<div class={`absolute w-full h-full transition-opacity duration-500 ${$currentIndex === i ? 'opacity-100' : 'opacity-0'}`}>
@@ -49,9 +48,9 @@
 		</style>
 	</div>
 
-	<div class="container mx-auto pt-40 mt-40 mb-16">
+	
 		<!-- welkom op website -->
-		<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start pt-20 transition duration-300 snap-start">
+		<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start pt-16 md:pt-40 transition duration-300 snap-start">
 			<div class="flex flex-col items-start col-span-1 md:col-start-2 md:col-span-1 lg:col-start-2 lg:col-span-1 xl:col-start-2 xl:col-span-1 w-full md:w-64">
 				<h2 class="text-3xl font-bold">Welkom bij de website van</h2>
 				<div class="text-2xl text-green-600 font-bold">Hendrik Hogendijk</div>
@@ -61,18 +60,19 @@
 				</p>
 			</div>
 			<figure class="flex flex-col items-start max-md:hidden drop-shadow-2xl col-span-1 md:col-start-4 md:col-span-1 lg:col-start-4 lg:col-span-1 xl:col-start-4 xl:col-span-1 w-full md:w-64">
-				<img src={pfp} alt="photopfp" />
+				<img src={pfp} alt="photopfp" class="rounded-full"/>
+				<div class="pl-16">Hendrik Hogendijk</div>
 			</figure>
 		</div>
 
-		<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start mb-32 mt-32 ">
-			<hr class="my-16 w-full md:w-full rounded col-span-1 md:col-span-6 bg-white border-0" />
+		<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start md:pt-8">
+			<hr class="my-16 w-full md:w-full rounded col-span-1 md:col-span-6 bg-white border-1" />
 		</div>
 
 		<!-- qoute -->
-		<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start pt-40 transition duration-300 snap-start">
-			<figure class="flex flex-col items-start max-md:hidden drop-shadow-2xl col-span-1 md:col-start-2 md:col-span-1 lg:col-start-2 lg:col-span-1 xl:col-start-2 xl:col-span-1 w-full md:w-64">
-				<img src={qoute} alt="quote" />
+		<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start pt-16 md:pt-40 transition duration-300 snap-start ">
+			<figure class="flex flex-col items-start max-md:hidden drop-shadow-2xl col-span-1 md:col-start-1 md:col-span-2 lg:col-start-2 lg:col-span-1 xl:col-start-2 xl:col-span-1 w-full md:w-[350px]">
+				<img src={qoute} alt="quote" class="w-[350px] h-[350px] rounded border-1" />
 			</figure>
 			<div class="flex flex-col items-start col-span-1 md:col-start-4 md:col-span-1 lg:col-start-4 lg:col-span-1 xl:col-start-4 xl:col-span-1 w-full md:w-64">
 				<h2 class="text-3xl font-bold">Quote</h2>
@@ -84,12 +84,12 @@
 			</div>
 		</div>
 
-		<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start mb-32 mt-64 ">
-			<hr class="my-16 w-full md:w-full rounded col-span-1 md:col-span-6 bg-white border-0" />
+		<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start md:pt-36">
+			<hr class="my-16 w-full md:w-full rounded col-span-1 md:col-span-6 bg-white border-1" />
 		</div>
 
 		<!-- contact mij -->
-		<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start pt-40 transition duration-300 snap-start">
+		<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start pt-16 md:pt-40 transition duration-300 snap-start">
 			<div class="flex flex-col items-start col-span-1 md:col-start-2 md:col-span-1 lg:col-start-2 lg:col-span-1 xl:col-start-2 xl:col-span-1 w-full md:w-64">
 				<h2 class="text-3xl font-bold">Contact Mij</h2>
 				<div class="text-2xl text-green-600 underline font-bold">
@@ -101,18 +101,18 @@
 				</p>
 			</div>
 			<figure class="flex flex-col items-start max-md:hidden drop-shadow-2xl col-span-1 md:col-start-4 md:col-span-1 lg:col-start-4 lg:col-span-1 xl:col-start-4 xl:col-span-1 w-full md:w-64">
-				<img src={contactmij} alt="contactmij" />
+				<img src={contactmij} alt="contactmij" class="" />
 			</figure>
 		</div>
 
-		<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start mb-32 mt-64 ">
-			<hr class="my-16 w-full md:w-full rounded col-span-1 md:col-span-6 bg-white border-0" />
+		<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start drop-shadow-2xl	md:pt-28">
+			<hr class="my-16 w-full md:w-full rounded col-span-1 md:col-span-6 bg-white border-1 " />
 		</div>
 
 		<!-- inspiratie -->
-		<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start mt-8 mb-16 transition duration-300 snap-start">
+		<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start mt-8  transition duration-300 snap-start mb-60 pt-16 md:pt-32 ">
 			<figure class="flex flex-col items-start max-md:hidden drop-shadow-2xl col-span-1 md:col-start-2 md:col-span-1 lg:col-start-2 lg:col-span-1 xl:col-start-2 xl:col-span-1 w-full md:w-64">
-				<img src={inspiratie} alt="contactmij" />
+				<img src={inspiratie} alt="contactmij" class="rounded"/>
 			</figure>
 			<div class="flex flex-col items-start mb-5 col-span-1 md:col-start-4 md:col-span-1 lg:col-start-4 lg:col-span-1 xl:col-start-4 xl:col-span-1 w-full md:w-64">
 					<h2 class="text-3xl font-bold">Inspiratie</h2>
@@ -125,8 +125,8 @@
 					</p>
 			</div>
 		</div>
-	</div>
-</div>
+
+
 
 
 

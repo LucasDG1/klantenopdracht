@@ -19,9 +19,9 @@
 		<div class="col-start-4">
 			<h3 class="font-bold  text-green-500  mb-2">Contact</h3>
       <div class="mt-5 text-green-600"> telefoon </div>
-      <p class="text-xl"><a href="">06 5823123</a></p>
+      <p class="text-xl"><a href="https://wa.me/065823123">06 5823123</a></p>
 			<div class="mt-5 text-green-600"> e-mail</div>
-      <p class="text-xl"><a href="">hendrikhogendijkhoveniers@gmail.com</a></p>
+	<p class="text-xl"><a href="mailto:hendrikhogendijkhoveniers@gmail.com">hendrikhogendijkhoveniers@gmail.com</a></p>
 		</div>
 	</div>
 	<div class="text-center mt-4 md:mt-16">© 2024 Your Company. rights reserved.</div>
