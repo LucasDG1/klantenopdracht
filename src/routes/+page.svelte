@@ -27,7 +27,7 @@
 	});
 </script>
 
-	<div class="relative w-full h-screen snap-start">
+	<div class="relative w-full h-screen snap-start ">
 		{#each images as image, i}
 			<div class={`absolute w-full h-full transition-opacity duration-500 ${$currentIndex === i ? 'opacity-100' : 'opacity-0'}`}>
 				<img src={image} alt="Slideshow image" class="inset-0 h-full w-full object-cover" />
