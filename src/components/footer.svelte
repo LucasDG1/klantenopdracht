@@ -19,7 +19,7 @@
 		<div class="col-start-4">
 			<h3 class="font-bold  text-green-500  mb-2">Contact</h3>
       <div class="mt-5 text-green-600"> telefoon </div>
-      <p class="text-xl"><a href="https://wa.me/065823123">06 5823123</a></p>
+      <p class="text-xl"><a href="https://wa.me/065823123">+31 6 12345678</a></p>
 			<div class="mt-5 text-green-600"> e-mail</div>
 	<p class="text-xl"><a href="mailto:hendrikhogendijkhoveniers@gmail.com">hendrikhogendijkhoveniers@gmail.com</a></p>
 		</div>
