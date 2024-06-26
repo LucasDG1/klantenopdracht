@@ -17,7 +17,7 @@
 <Snap includeSnap={$page.url.pathname === '/' || $page.url.pathname === '/diensten'}>
 	{#key data.pathname}
 		<div in:fade={{ duration: 200, delay: 100 }} out:fade={{ duration: 200 }}>
-			<div class="mt-[65px]">
+			<div class="mt-[50px]">
 				<slot />
 			</div>
 		</div>

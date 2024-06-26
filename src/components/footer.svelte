@@ -24,5 +24,5 @@
 	<p class="text-xl"><a href="mailto:hendrikhogendijkhoveniers@gmail.com">hendrikhogendijkhoveniers@gmail.com</a></p>
 		</div>
 	</div>
-	<div class="text-center mt-4 md:mt-16">© 2024 Your Company. rights reserved.</div>
+	<div class="text-center mt-4 md:mt-16">© 2024 Jou Bedrijf. rechten voorbehouden.</div>
 </div>
