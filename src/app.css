@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
+
+@layer base {
+    @font-face {
+        font-family: 'avgard';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/font/AVGARDN_2.woff) format('woff');
+    }
+}
+
+*{
+    font-family: 'avgard';
+}
