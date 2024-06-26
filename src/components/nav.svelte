@@ -1,6 +1,6 @@
 <script>
 	let y = 0;
-	$: console.log(y);
+	// $: out = y > -100 || ;
 
 	import logo from '../image/logo-removebg-preview-removebg-preview.png';
 
@@ -19,13 +19,13 @@
 
 <div>
 	<div
-		class={`navbar fixed top-0 w-full z-50 bg-white transition-[padding,background-color]  border-black duration-400 ${y >= 80 ? 'p-[0px_0px] border-b ' : 'p-[10px_0px] border-b'}`}
+		class={`navbar fixed top-0 w-full z-50 bg-green-950 transition-[padding,background-color]  border-black duration-400 ${y >= 2 ? 'p-[0px_0px] border-b ' : 'p-[10px_0px] border-b'}`}
 	>
 		<nav class="container px-6 py-2 mx-auto md:flex md:justify-between md:items-center">
 			<div class="flex items-center justify-between">
 				<a href="/">
 					<img
-						class={`logo w-32 h-32 transition-all duration-200 col-start-1 ${y > 80 ? 'w-[44px] h-[44px] mt-[5px]' : 'w-[60px] h-[60px]'}`}
+						class={`logo w-32 h-32 transition-all duration-200 col-start-1 ${y > 2 ? 'w-[44px] h-[44px] mt-[5px]' : 'w-[60px] h-[60px]'}`}
 						src={logo}
 						alt="image2"
 					/>
@@ -59,28 +59,28 @@
 			>
 				<a
 					on:click={closeNavbar}
-					class="text-black text-base hover:bg-[#A9A9A9] hover:rounded hover:p-1"
+					class="text-white text-base hover:bg-[#A9A9A9] hover:rounded hover:p-1"
 					href="/">Home</a
 				>
 				<a
 					on:click={closeNavbar}
-					class="text-black text-base hover:bg-[#A9A9A9] hover:rounded hover:p-1"
+					class="text-white text-base hover:bg-[#A9A9A9] hover:rounded hover:p-1"
 					href="/foto-album">Inspiratie</a
 				>
 				<a
 					on:click={closeNavbar}
-					class="text-black text-base hover:bg-[#A9A9A9] hover:rounded hover:p-1"
+					class="text-white text-base hover:bg-[#A9A9A9] hover:rounded hover:p-1"
 					href="/contact">Contact Mij</a
 				>
 				<a
 					on:click={closeNavbar}
-					class="text-black text-base hover:bg-[#A9A9A9] hover:rounded hover:p-1"
+					class="text-white text-base hover:bg-[#A9A9A9] hover:rounded hover:p-1"
 					href="/diensten">Diensten</a
 				>
 				<a
 					on:click={closeNavbar}
-					class="text-black text-base hover:bg-[#A9A9A9] hover:rounded hover:p-1"
-					href="">+31 6 12345678</a
+					class="text-white text-base hover:bg-[#A9A9A9] hover:rounded hover:p-1"
+					href="https://wa.me/065823123">+31 6 12345678</a
 				>
 				<div class="space-y-2"></div>
 			</div>

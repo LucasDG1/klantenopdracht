@@ -8,14 +8,15 @@
 	import { fade } from 'svelte/transition';
 
 	export let data;
-</script>
-
+</script>	
 <Nav />
+<div class="md:snap-y md:snap-mandatory md:overflow-scroll w-screen h-screen">
 {#key data.pathname}
 	<div in:fade={{ duration: 200, delay: 100 }} out:fade={{ duration: 200 }}>
-		<div class="mt-[67px]">
+		<div class="mt-[65px]">
 			<slot />
 		</div>
 	</div>
 {/key}
 <Footer />
+</div>

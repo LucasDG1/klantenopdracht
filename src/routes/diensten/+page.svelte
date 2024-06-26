@@ -7,7 +7,7 @@
 
 <div class="container mx-auto p-4 mt-16">
 	<!-- tuinontwerp -->
-	<div class="grid grid-cols-1  md:grid-cols-5 gap-4 place-items-start mt-8">
+	<div class="grid grid-cols-1  md:grid-cols-5 gap-4 place-items-start md:pt-40 snap-start">
 		<div
 			class="flex flex-col items-start col-span-1 md:col-start-2 md:col-span-1 lg:col-start-2 lg:col-span-1 xl:col-start-2 xl:col-span-1 w-full md:w-64"
 		>
@@ -27,7 +27,7 @@
 		<hr class=" my-6 w-full md:w-full rounded col-span-1 md:col-span-6 bg-[#525F4F] border-1" />
 	</div>
 	<!-- tuinaanleg -->
-	<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start mt-8">
+	<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start md:pt-40 snap-start">
 		<figure
 			class="flex flex-col items-start max-md:hidden drop-shadow-2xl col-span-1 md:col-start-2 md:col-span-1 lg:col-start-2 lg:col-span-1 xl:col-start-2 xl:col-span-1 w-full md:w-64"
 		>
@@ -46,7 +46,7 @@
 		<hr class=" my-6 w-full md:w-full rounded col-span-1 md:col-span-6 bg-[#525F4F] border-1" />
 	</div>
 	<!-- tuinonderhoud -->
-	<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start mt-8">
+	<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start md:pt-40 snap-start">
 		<div
 			class="flex flex-col items-start col-span-1 md:col-start-2 md:col-span-1 lg:col-start-2 lg:col-span-1 xl:col-start-2 xl:col-span-1 w-full md:w-64"
 		>
@@ -66,7 +66,7 @@
 	</div>
 
 	<!-- zwemvijvers -->
-	<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start mt-8">
+	<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start md:pt-40 snap-start	">
 		<figure
 			class="flex flex-col items-start max-md:hidden drop-shadow-2xl col-span-1 md:col-start-2 md:col-span-1 lg:col-start-2 lg:col-span-1 xl:col-start-2 xl:col-span-1 w-full md:w-64"
 		>
