@@ -7,16 +7,20 @@
 
 	import { fade } from 'svelte/transition';
 
+	import Snap from '../components/snap.svelte'
+	import { page } from '$app/stores';
+
 	export let data;
 </script>	
 <Nav />
-<div class="md:snap-y md:snap-mandatory md:overflow-scroll w-screen h-screen">
-{#key data.pathname}
-	<div in:fade={{ duration: 200, delay: 100 }} out:fade={{ duration: 200 }}>
-		<div class="mt-[65px]">
-			<slot />
+
+<Snap includeSnap={$page.url.pathname === '/'}>
+	{#key data.pathname}
+		<div in:fade={{ duration: 200, delay: 100 }} out:fade={{ duration: 200 }}>
+			<div class="mt-[65px]">
+				<slot />
+			</div>
 		</div>
-	</div>
-{/key}
-<Footer />
-</div>
+	{/key}
+<Footer />	
+</Snap>
