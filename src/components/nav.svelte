@@ -63,17 +63,17 @@
 				<a
 					on:click={closeNavbar}
 					class="text-white text-base md:text-lg hover:bg-gray-500 hover:rounded px-2 py-1"
+					href="/diensten">Diensten</a
+				>
+				<a
+					on:click={closeNavbar}
+					class="text-white text-base md:text-lg hover:bg-gray-500 hover:rounded px-2 py-1"
 					href="/foto-album">Inspiratie</a
 				>
 				<a
 					on:click={closeNavbar}
 					class="text-white text-base md:text-lg hover:bg-gray-500 hover:rounded px-2 py-1"
 					href="/contact">Contact Mij</a
-				>
-				<a
-					on:click={closeNavbar}
-					class="text-white text-base md:text-lg hover:bg-gray-500 hover:rounded px-2 py-1"
-					href="/diensten">Diensten</a
 				>
 				<a
 					on:click={closeNavbar}
