@@ -113,7 +113,7 @@
 	</div>
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start md:pt-36">
+<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start md:pt-24">
 	<hr class="my-16 w-full md:w-full rounded col-span-1 md:col-span-6 bg-white border-1" />
 </div>
 
@@ -144,7 +144,7 @@
 	</figure>
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start drop-shadow-2xl md:pt-28">
+<div class="grid grid-cols-1 md:grid-cols-5 gap-4 place-items-start drop-shadow-2xl md:pt-32">
 	<hr class="my-16 w-full md:w-full rounded col-span-1 md:col-span-6 bg-white border-1" />
 </div>
 
