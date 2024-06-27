@@ -34,12 +34,12 @@ app.get('/api/texts', (req, res) => {
 });
 
 app.post('/api/texts', (req, res) => {
-  const { text_id, text } = req.body;
+  const { text_id, title, text, img } = req.body;
   if (!text_id) {
     res.status(400).json({ error: 'text_id is required' });
     return;
   }
-  con.query("UPDATE texts SET text = ? WHERE text_id = ?", [text, text_id], (err, result) => {
+  con.query("UPDATE texts SET title = ?, text = ?, img = ? WHERE text_id = ?", [title, text, img, text_id], (err, result) => {
     if (err) {
       console.error('Error updating text:', err);
       res.status(500).json({ error: 'Failed to update text' });
